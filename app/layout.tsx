@@ -1,19 +1,19 @@
-import type { Metadata } from "next";
-import { Overpass } from "next/font/google";
-import "./globals.css";
-import Reference from "./components/Reference";
+import type { Metadata } from "next"
+import { Overpass } from "next/font/google"
+import "./globals.css"
+import Reference from "./components/Reference"
 
-const overpass = Overpass({ subsets: ["latin"], weight: ["400", "700"] });
+const overpass = Overpass({ subsets: ["latin"], weight: ["400", "700"] })
 
 export const metadata: Metadata = {
-  title: "Frontend Mentor Challenge",
+  title: "Interactive rating component",
   description: "A Challenge from Frontend Mentor!",
-};
+}
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <html lang="en">
@@ -24,5 +24,5 @@ export default function RootLayout({
         <Reference />
       </body>
     </html>
-  );
+  )
 }
