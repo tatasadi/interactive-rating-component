@@ -12,6 +12,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
+    - [Code Quality with](#code-quality-with)
   - [Author](#author)
 
 ## Overview
@@ -20,12 +21,15 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Select and submit a number rating
+- See the "Thank you" card state after submitting a rating
+- **Bonus** See an error if after not choosing a rating and clicking on submit button
 
 ### Screenshots
 
 ![](./screenshot1.jpg)
-![](./screenshot2.jpg)
 
 ### Links
 
@@ -36,12 +40,12 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
-- Flexbox
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.JS](https://nextjs.org) - React framework
-- [Tailwindcss](https://tailwindcss.com) - For styles
+![](https://img.shields.io/badge/HTML5-fff?style=for-the-badge&logo=HTML5&logoColor=fff&color=E34F26) ![](https://img.shields.io/badge/CSS3-fff?style=for-the-badge&logo=CSS3&logoColor=fff&color=29a4d9) ![](https://img.shields.io/badge/TypeScript-fff?style=for-the-badge&logo=TypeScript&logoColor=fff&color=2f74c0) ![](https://img.shields.io/badge/git-fff?style=for-the-badge&logo=git&logoColor=fff&color=e94e31)
+![](https://img.shields.io/badge/React-fff?style=for-the-badge&logo=React&logoColor=000&color=5ed3f3) ![](https://img.shields.io/badge/Next.JS-fff?style=for-the-badge&logo=next.js&logoColor=fff&color=000) ![](https://img.shields.io/badge/tailwindcss-fff?style=for-the-badge&logo=tailwindcss&logoColor=fff&color=15b8c5)
+
+### Code Quality with
+
+![](https://img.shields.io/badge/eslint-fff?style=for-the-badge&logo=eslint&logoColor=fff&color=4930bd) ![](https://img.shields.io/badge/prettier-fff?style=for-the-badge&logo=prettier&logoColor=000&color=f3ae42)
 
 ## Author
 
