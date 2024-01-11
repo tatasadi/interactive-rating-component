@@ -74,7 +74,7 @@ export default function Card() {
             </RateNumber>
           </div>
           <button
-            className="bg-primary-orange mt-6 w-full cursor-pointer rounded-full p-3 text-sm font-bold uppercase leading-normal tracking-[0.11669rem]"
+            className="bg-primary-orange  hover:text-primary-orange mt-6 w-full cursor-pointer rounded-full p-3 text-sm font-bold uppercase leading-normal tracking-[0.11669rem] hover:bg-white"
             onClick={handleSubmit}
           >
             Submit
