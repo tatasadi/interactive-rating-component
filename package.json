@@ -28,6 +28,7 @@
   "prettier": {
     "plugins": [
       "prettier-plugin-tailwindcss"
-    ]
+    ],
+    "semi": false
   }
 }

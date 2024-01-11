@@ -1,6 +1,6 @@
 export default function Reference() {
   return (
-    <footer className="fixed bottom-0 mb-1 flex flex-col text-center text-sm sm:flex-row">
+    <footer className="fixed bottom-0 mb-1 flex flex-col text-center text-sm sm:flex-row md:gap-1">
       <div>
         Challenge by{" "}
         <a
@@ -36,5 +36,5 @@ export default function Reference() {
         </a>
       </div>
     </footer>
-  );
+  )
 }

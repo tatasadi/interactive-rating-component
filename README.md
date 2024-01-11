@@ -38,10 +38,9 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Remix](https://remix.run/) - React framework
+- [Next.JS](https://nextjs.org) - React framework
 - [Tailwindcss](https://tailwindcss.com) - For styles
 
 ## Author

@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${overpass.className} flex min-h-screen flex-col items-center justify-center`}
+        className={`${overpass.className} bg-neutral-very-dark-blue flex min-h-screen flex-col items-center justify-center text-white`}
       >
         {children}
         <Reference />
