@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Overpass } from "next/font/google";
 import "./globals.css";
 import Reference from "./components/Reference";
 
-const inter = Inter({ subsets: ["latin"] });
+const overpass = Overpass({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata: Metadata = {
   title: "Frontend Mentor Challenge",
@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} flex min-h-screen flex-col items-center justify-center`}
+        className={`${overpass.className} flex min-h-screen flex-col items-center justify-center`}
       >
         {children}
         <Reference />
